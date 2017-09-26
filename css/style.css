@@ -68,7 +68,7 @@ section .breadcrumb {
 
 section.active h1 {
     width: 0em;
-    width: 23ch;
+    width: 24ch;
     white-space: nowrap;
     overflow: hidden;
     -webkit-animation: typing 2s steps(21, end), blink-caret .5s step-end infinite alternate;
@@ -584,3 +584,49 @@ footer li {
 }
 
 footer li a {}
+
+.navi {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.navi i {
+    color: white;
+    font-size: 2.6rem;
+    -webkit-animation: pulse 1.5s infinite;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -moz-transform: scale(1.7);
+        -ms-transform: scale(1.7);
+        -webkit-transform: scale(1.7);
+        transform: scale(1.7);
+    }
+    100% {
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+#button1Id {
+    position: absolute;
+    top: 31%;
+    right: -2px;
+    ;
+}
+
+#button2Id {
+    bottom: 30%;
+    right: -1px;
+    position: absolute;
+}

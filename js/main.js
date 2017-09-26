@@ -1,10 +1,21 @@
 $(document).ready(function () {
+    $('#button1Id').click(function () {
+        $.fn.fullpage.moveSectionUp();
+    });
+    $('#button2Id').click(function () {
+        $.fn.fullpage.moveSectionDown();
+
+    });
     $('#fullpage').fullpage({
         navigation: true,
         navigationPosition: 'right',
         easing: 'easeOutQuint',
         autoScrolling: true,
+        paddingTop: '4em',
+        paddingBottom: '20px',
         fadingEffect: true,
+        fixedElements: '#button1Id, #button2Id',
+
         parallax: true,
         scrollingSpeed: 700,
         dragAndMove: true,

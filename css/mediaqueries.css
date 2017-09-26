@@ -17,12 +17,19 @@
         font-size: 1.1rem;
     }
     #fp-nav.right {
-        right: 0px;
+        right: 19px;
     }
     section .content {
         width: 83%;
     }
     section .content ul {
         margin-left: 20px;
+    }
+    #button1Id {
+        position: absolute;
+        top: 28%;
+    }
+    #button2Id {
+        bottom: 26%;
     }
 }
