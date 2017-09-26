@@ -16,4 +16,13 @@
     section#intro .content {
         font-size: 1.1rem;
     }
+    #fp-nav.right {
+        right: 0px;
+    }
+    section .content {
+        width: 83%;
+    }
+    section .content ul {
+        margin-left: 20px;
+    }
 }
