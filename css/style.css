@@ -71,9 +71,12 @@ section.active h1 {
 section .content {
     position: relative;
     top: 50px;
+    opacity: 0;
+    transition: opacity 1.8s, visibility 1.8s;
 }
 
 section.active .content {
+    opacity: 1;
     -webkit-animation: animation 2000ms linear both;
     animation: animation 2000ms linear both;
     -webkit-animation-delay: 400ms;
