@@ -50,7 +50,7 @@ section {
 }
 
 section h1 {
-    font-size: 1.8rem;
+    font-size: 1.9rem;
 }
 
 section .breadcrumb {
@@ -73,6 +73,7 @@ section .content {
     top: 50px;
     opacity: 0;
     transition: opacity 1.8s, visibility 1.8s;
+    text-shadow: 1px 1px #010102, 1px 1px #010102;
 }
 
 section.active .content {
@@ -271,4 +272,9 @@ section {
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span {
     background: #FD877B;
+}
+
+section#intro .content {
+    font-size: 1.4rem;
+    line-height: 40px;
 }
