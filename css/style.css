@@ -219,7 +219,7 @@ section.active .content {
 section .content {
     text-align: justify;
     width: 90%;
-    color: #BEBFC2;
+    color: white;
     line-height: 30px;
     font-size: 0.8rem;
 }
@@ -278,3 +278,38 @@ section#intro .content {
     font-size: 1.4rem;
     line-height: 40px;
 }
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    transform-origin: 0 0;
+    transform: translateY(-20px);
+    -webkit-animation: translate 1s both;
+    /* Safari 4.0 - 8.0 */
+    animation: translate 1s both;
+}
+
+@keyframes translate {
+    0% {
+        transform: translateY(30px);
+    }
+    45% {
+        transform: translateY(-14px);
+    }
+    75% {
+        transform: translateY(-7px);
+    }
+    100% {
+        transform: translateY(-10px)
+    }
+}
+
+footer ul {}
+
+footer li {
+    float: left;
+    color: white;
+    margin-right: 30px;
+}
+
+footer li a {}
